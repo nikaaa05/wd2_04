@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
   <div class="content">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand " href="./index.html">Skincare</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -30,98 +33,291 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Značky</a>
             </li>
-        
+
           </ul>
         </div>
       </div>
     </nav>
 
   </div>
- 
-    
 
- <section class="container">
-  <div class="content">
-    <h2 class="fs-2 pt-3 pb-1 ">Péče o plet'</h2>
-    <p class="fs-5 pt-2 pb-1 ">  Množství produktů: 15</p>
-    <p class="pt-2 pb-1 "> Třídit</p>
-    <select class="form-select" aria-label="Default select example">
-      <option selected>podle názvu vzestupně</option>
-      <option value="1">podle názvu sestupně</option>
-      <option value="2">podle ceny vzestupně</option>
-      <option value="3">podle ceny sestupně</option>
-    </select>
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-end pt-3 ">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+
+  <div class="container-fluid">
+    <div class="row" id="fs_app">
+      <section class="col-12" id="fs_header_bar">
+        <div class="row">
+          <div class="col-2">
+            <i class="fa fa-chevron-left"></i>
+          </div>
+          <div class="col-10" id="fs_page_title">
+            Filtry
+          </div>
+        </div>
+      </section>
+      <section class="col-12" id="fs_price_body">
+        <div>
+         
+          <label for="customRange1" class="form-label">Cena</label>
+<input type="range" class="form-range" id="customRange1">
+           
+
+    </div>
   </div>
- </section>
+
+  </div>
+  </div>
+
   <section class="container">
     <div class="content">
-   
+      <h2 class="fs-2 pt-3 pb-1 ">Péče o plet'</h2>
+      <p class="fs-5 pt-2 pb-1 "> Množství produktů: 15</p>
+      <p class="pt-2 pb-1 "> Třídit:</p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>podle názvu vzestupně</option>
+        <option value="1">podle názvu sestupně</option>
+        <option value="2">podle ceny vzestupně</option>
+        <option value="3">podle ceny sestupně</option>
+      </select>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end pt-3 ">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <section class="container">
+    <div class="content">
 
 
-     
-     
 
-        <div class="cards row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-4">
-          <div class="col">
-    
-            <div class="card h-100">
-              <img src="./images/1.webp" class="card-img-top" alt="#">
-              <div class="card-body">
-                <a class="link" href="./skincare.html">Anua - Heartleaf 77% Soothing Toner - Zklidňující tonikum na obličej - 250 ml</a>
-               <p class="text">515,00 Kč</p>
-               <a href="./skincare.html" class="btn btn-dark ">Přidat do košíku</a>
-              </div>
+
+
+
+      <div class="cards row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 pb-4">
+        <div class="col">
+
+          <div class="card h-100">
+            <img src="./images/1.webp" class="card-img-top" alt="#">
+            <div class="card-body">
+              <a class="link" href="./skincare.html">Anua - Heartleaf 77% Soothing Toner - Zklidňující tonikum na
+                obličej - 250 ml</a>
+              <p class="text">515,00 Kč</p>
+              <a href="./skincare.html" class="btn btn-dark ">Přidat do košíku</a>
             </div>
           </div>
-          
-       
-          <div class="col">
-    
-            <div class="card h-100">
-              <img src=".//images/2.webp" class="card-img-top" alt="#">
-              <div class="card-body">
-                <a class="link" href="#">COSRX - Low pH Good Morning Gel Cleanser</a>
-                <p class="text">315,00 Kč</p>
-                <a href="#" class="btn btn-dark ">Přidat do košíku</a>
-              </div>
-            </div>
-         
         </div>
+
+
         <div class="col">
-    
+
           <div class="card h-100">
-            <img src=".//images/3.webp" class="card-img-top" alt="#">
+            <img src=".//images/2.webp" class="card-img-top" alt="#">
             <div class="card-body">
-              <a class="link" href="#">The Ordinary - Natural Moisturizing Factors + HA - Hydratační krém s kyselinou hyaluronovou - 100 ml</a>
-              <p class="text">370,00 Kč</p>
+              <a class="link" href="#">COSRX - Low pH Good Morning Gel Cleanser</a>
+              <p class="text">315,00 Kč</p>
               <a href="#" class="btn btn-dark ">Přidat do košíku</a>
             </div>
           </div>
+
         </div>
+        <div class="col">
+
+          <div class="card h-100">
+            <img src=".//images/3.webp" class="card-img-top" alt="#">
+            <div class="card-body">
+              <a class="link" href="#">The Ordinary - Natural Moisturizing Factors + HA - Hydratační krém s kyselinou
+                hyaluronovou - 100 ml</a>
+              <p class="text">370,00 Kč</p>
+              <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col">
+
+          <div class="card h-100">
+            <img src=".//images/4.webp" class="card-img-top" alt="#">
+            <div class="card-body">
+              <a class="link" href="#">About me - Soop Calming Aqua Serum - Zklidňující sérum s vodou z cypřiše Hinoki -
+                50 ml</a>
+              <p class="text">490,00 Kč</p>
+              <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col">
+        <div class="card h-100">
+          <img src=".//images/5.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Beauty of Joseon - Red Bean Water Gel - Hydratační krém s gelovou konzistencí - 100
+              ml</a>
+            <p class="text">450,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
       </div>
-    
+
+
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/6.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Beauty of Joseon - Dynasty Cream - Zklidňující a hydratační krém - 50 ml</a>
+            <p class="text">450,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/7.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Anua - Heartleaf 70% Intense Calming Cream - Zklidňující krém s extraktem z toulně srdčité - 50 ml</a>
+            <p class="text">499,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/8.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Celimax - Ji.Woo.Gae BHA Peeling Pad - Peelingové pleťové tampony - 60 ks</a>
+            <p class="text">540,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/9.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Round Lab - 1025 Dokdo Lotion - Hydratační krém s kyselinou hyaluronovou - 200 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/10.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Mary&May - Cica Houttuynia Tea Tree Calming Mask - Sada zklidňujících pleťových masek - 30 ks</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/11.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Mary&May - Vegan CICA Tea Tree AHA PHA Toner - Veganské tonikum s kyselinami - 200 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/12.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Purito - Centella Green Level Calming Toner - Hydratační tonikum s pupečníkem asijským - 200 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/13.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Purito - From Green Deep Foaming Cleanser - Čisticí pěna s pupečníkem asijským - 150 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/14.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Dr.Jart+ - Ctrl-A Teatreement Cleansing Foam - Čisticí pěna pro problematickou pleť - 120 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <div class="col">
+        <div class="card h-100">
+          <img src=".//images/15.webp" class="card-img-top" alt="#">
+          <div class="card-body">
+            <a class="link" href="#">Dr.Jart+ - Ctrl-A Teatreement Soothing Spot - Růžový přípravek redukující nedokonalosti a pigmentové skvrny - 15 ml</a>
+            <p class="text">910,00 Kč</p>
+            <a href="#" class="btn btn-dark ">Přidat do košíku</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
 
     
-         
+
+
+    </div>
+
+
+
+
   </section>
- 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </body>
+
 </html>

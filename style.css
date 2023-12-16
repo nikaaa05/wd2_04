@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playfair+Display+SC&family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+    --sm-font: 'Poppins', sans-serif;
+    --lg-font: 'Playfair Display', serif;
+    --js-font: 'Merriweather', serif;
+    --black: #1E1E1E;
+    --blue: rgb(56, 22, 207);
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+.navbar-brand {
+    font-family: var(--lg-font) !important;
+}
+
+.fs-2 {
+    color: var(--black);
+    font-family: var(--js-font);
+
+}
+
+a.link {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+#fs_app {
+    padding: 10px 15px 0;
+}
+#fs_app > section:not(#fs_header_bar){
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom:2px solid #eee;
+}
+#fs_header_bar{
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+
+#fs_page_title{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: -15px;
+}
+
+
