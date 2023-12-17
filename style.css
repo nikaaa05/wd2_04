@@ -51,3 +51,42 @@ a.link {
 }
 
 
+
+.col-md-7 h2{
+    color: var(--black);
+    font-family:var(--js-font);
+
+}
+.price{
+    color: #1f7914;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+
+.fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+ 
+
+  
+
+  
+
+ 
+  
+ 
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }}
