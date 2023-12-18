@@ -41,7 +41,21 @@
 
   </div>
 
+
+<section class="container">
   <div class="content">
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Try scrolling the rest of the page to see this option in action.</p>
+      </div>
+    </div>
+
+
   <div class="container-fluid">
     <div class="row" id="fs_app">
       <section class="col-12" id="fs_header_bar">
@@ -49,7 +63,7 @@
           <div class="col-2">
             <i class="fa fa-chevron-left"></i>
           </div>
-          <div class="col-10" id="fs_page_title">
+          <div class="col-10 " id="fs_page_title">
             Filtry
           </div>
         </div>
@@ -60,11 +74,13 @@
       </form>
       <section class="col-12" id="fs_price_body">
         <div>
-         
+       
           <label for="customRange1" class="form-label">Cena</label>
 <input type="range" class="form-range" id="customRange1">
-<p class="text-mn">150Kč - 2900Kč</p>
-
+<div class="mb-3 theme-clr xs2-font d-flex justify-content-between">
+  <span id="slider-range-value1">150Kč</span>
+  <span id="slider-range-value2">2900Kč</span>
+</div>
    
 </div>
 <p class="fs-5 pt-2 pb-1 ">Značka</p> 
@@ -173,12 +189,13 @@
 
   </div>
   </div>
+</section>
 
   <section class="container">
     <div class="content">
       <h2 class="fs-2 pt-3 pb-1 ">Péče o plet'</h2>
-      <p class="fs-5 pt-2 pb-1 "> Množství produktů: 15</p>
-      <p class="pt-2 pb-1 "> Třídit:</p>
+      <p class=" pt-1 pb-1 "> Množství produktů: 15</p>
+      <p class="pt-1 pb-1 "> Třídit:</p>
       <select class="form-select" aria-label="Default select example">
         <option selected>podle názvu vzestupně</option>
         <option value="1">podle názvu sestupně</option>
