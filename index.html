@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,8 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
 
@@ -51,148 +53,140 @@
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <p>Try scrolling the rest of the page to see this option in action.</p>
-      </div>
-    </div>
-
-
-  <div class="container-fluid">
-    <div class="row" id="fs_app">
-      <section class="col-12" id="fs_header_bar">
-        <div class="row">
-          <div class="col-2">
-            <i class="fa fa-chevron-left"></i>
-          </div>
-          <div class="col-10 " id="fs_page_title">
-            Filtry
-          </div>
-        </div>
-      </section>
-      <form id="form"> 
-        <input type="search" class="mt-4" name="q" placeholder="Najít...">
-        <button class="btn btn-dark">Najít</button>
-      </form>
-      <section class="col-12" id="fs_price_body">
-        <div>
-       
-          <label for="customRange1" class="form-label">Cena</label>
-<input type="range" class="form-range" id="customRange1">
-<div class="mb-3 theme-clr xs2-font d-flex justify-content-between">
-  <span id="slider-range-value1">150Kč</span>
-  <span id="slider-range-value2">2900Kč</span>
-</div>
-   
-</div>
-<p class="fs-5 pt-2 pb-1 ">Značka</p> 
-<div class="form-check">
-
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-   COSRX
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-   ANUA
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    The Ordinary
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Beauty of Joseon 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-   Round Lab
-  </label>
-</div>
-
-<p class="fs-5 pt-2 pb-1 ">Druh produktu </p> 
-<div class="form-check">
-
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-   Toner
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Čisticí gely na obličej 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Esence
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Séra
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-  Krémy
-  </label>
-</div>
-
-
-<p class="fs-5 pt-2 pb-1 ">Vlastnosti </p> 
-<div class="form-check">
-
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Antioxidační 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Hydratační 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Osvěžující 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Proti nedokonalostem 
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Regenerační 
-  </label>
-</div>
-<a href="#" class="btn btn-dark mt-2 ">Použit</a>
-
-    </div>
+        <form id="form"> 
+          <input type="search" class="mt-4" name="q" placeholder="Najít...">
+          <button class="btn btn-dark">Najít</button>
+        </form>
+        <div class="col-12" id="fs_price_body">
+          <div>
+         
+            <label for="customRange1" class="form-label">Cena</label>
+  <input type="range" class="form-range" id="customRange1">
+  <div class="mb-3 theme-clr xs2-font d-flex justify-content-between">
+    <span id="slider-range-value1">150Kč</span>
+    <span id="slider-range-value2">2900Kč</span>
   </div>
-
+     
+  </div>
+  <p class="fs-5 pt-2 pb-1 ">Značka</p> 
+  <div class="form-check">
+  
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+     COSRX
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+     ANUA
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      The Ordinary
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Beauty of Joseon 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+     Round Lab
+    </label>
+  </div>
+  
+  <p class="fs-5 pt-2 pb-1 ">Druh produktu </p> 
+  <div class="form-check">
+  
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+     Toner
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Čisticí gely na obličej 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Esence
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="">
+    <label class="form-check-label" >
+      Séra
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+    Krémy
+    </label>
+  </div>
+  
+  
+  <p class="fs-5 pt-2 pb-1 ">Vlastnosti </p> 
+  <div class="form-check">
+  
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Antioxidační 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Hydratační 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Osvěžující 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Proti nedokonalostem 
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" >
+    <label class="form-check-label" >
+      Regenerační 
+    </label>
+  </div>
+  <a href="#" class="btn btn-dark mt-2 ">Použit</a>
+  
+     
+    </div>
+  
+    </div>
+   
   </div>
   </div>
 </section>
 
-  <section class="container">
+  
+
+
+
+
+  <div class="container">
     <div class="content">
+      <button class="btn btn-dark mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+      aria-controls="offcanvasScrolling">Filtrovat</button>
       <h2 class="fs-2 pt-3 pb-1 ">Péče o plet'</h2>
       <p class=" pt-1 pb-1 "> Množství produktů: 15</p>
       <p class="pt-1 pb-1 "> Třídit:</p>
@@ -221,9 +215,9 @@
       </nav>
     </div>
  
-  </section>
+  </div>
 
-  <section class="container">
+  <div class="container">
     <div class="content">
 
 
@@ -427,7 +421,7 @@
         </div>
 
       </div>
-
+      </div>
 
 
 
@@ -440,10 +434,9 @@
 
 
 
-  </section>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+ 
 </body>
 
 </html>

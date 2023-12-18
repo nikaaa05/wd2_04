@@ -83,11 +83,3 @@ a.link {
 
  
   
- 
-  @media (max-width: 400px) {
-    .side, .middle {
-      width: 100%;
-    }
-    .right {
-      display: none;
-    }}
