@@ -74,6 +74,10 @@ a.link {
   .checked {
     color: orange;
   }
+ td .fa-remove{
+    color: red;
+ 
+  }
   
  
 
