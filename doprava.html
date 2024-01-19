@@ -2,217 +2,243 @@
 <html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
 
 <body>
+  <div class="content">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand " href="./index.html">Skincare</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Péče o plet'</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Líčení</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Novinky</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Značky</a>
+            </li>
+            <li class="nav-item">
+              <a href="kosik.html" class="nav-link"><i class="fa fa-shopping-cart  m-2"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <section class="container">
     <div class="content">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand " href="./index.html">Skincare</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Péče o plet'</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Líčení</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Novinky</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Značky</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="kosik.html" class="nav-link"><i class="fa fa-shopping-cart  m-2"></i></a>
-                        </li>
+      <h2 class="fs-2 pt-3 pb-1 d-flex justify-content-center ">Vaše udaje</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Jmeno</label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputSurname" class="form-label">Přijmení</label>
+          <input type="text" class="form-control" id="inputSurname">
+        </div>
+        <div class="col-">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="email@gmail.com">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Adresa</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="ulice a čislo">
+        </div>
 
-                    </ul>
-                </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Město</label>
+          <input type="text" class="form-control" id="inputCity">
+
+
+        </div>
+
+
+
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">PSČ</label>
+          <input type="text" class="form-control" id="inputState">
+
+
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Telefon</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Souhlasím s obchodními podmínkami
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark">Zpracovát</button>
+        </div>
+
+
+      </form>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card  mt-3">
+
+            <div class="card-body">
+              <h5 class="card-title fs-2 pt-3 pb-1 d-flex justify-content-center ">Doprava</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Výdejní místo Zásilkovna(+55Kč)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Z-box(+45Kč)
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Zásilkovna(kurýr+55Kč)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label" for="flexRadioDefault4">
+                  General Logistics Systems(+55Kč)
+
+
+                </label>
+
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                <label class="form-check-label" for="flexRadioDefault5">
+                  DHL(+55Kč)
+
+
+                </label>
+
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+                <label class="form-check-label" for="flexRadioDefault6">
+                  Česká pošta(+55Kč)
+
+
+                </label>
+
+              </div>
+              <a href="#" class="btn btn-dark mt-2">Podtvrdit</a>
             </div>
-        </nav>
 
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card  mt-3">
+
+            <div class="card-body">
+              <h5 class="card-title fs-2 pt-3 pb-1 d-flex justify-content-center ">Způsob platby</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+                <label class="form-check-label" for="flexRadioDefault7">
+                  Bankovní převod
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+                <label class="form-check-label" for="flexRadioDefault8">
+                  Apple pay
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
+                <label class="form-check-label" for="flexRadioDefault9">
+                  Google pay
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault10">
+                <label class="form-check-label" for="flexRadioDefault10">
+                  PayPal
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault11">
+                <label class="form-check-label" for="flexRadioDefault11">
+                  Na dobírku
+                </label>
+
+
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+                <label class="form-check-label" for="flexRadioDefault12">
+                  jine
+                </label>
+
+
+              </div>
+              <a href="#" class="btn btn-dark mt-2">Podtvrdit</a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
     </div>
 
-    <section class="container">
-        <div class="content">
-            <h2 class="fs-2 pt-3 pb-1 d-flex justify-content-center ">Vaše udaje</h2>
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputName" class="form-label">Jmeno</label>
-                  <input type="name" class="form-control" id="inputName">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputSurname" class="form-label">Přijmení</label>
-                  <input type="surname" class="form-control" id="inputSurame">
-                </div>
-                <div class="col-">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="email@gmail.com">
-                  </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Adresa</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="ulice a čislo">
-                </div>
-               
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">Město</label>
-                  <input type="text" class="form-control" id="inputCity">
-                  
-              
-                </div>
-                
-              
-               
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label">PSČ</label>
-                  <input type="text" class="form-control" id="inputCity">
-                    
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Telefon</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Souhlasím s obchodními podmínkami
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-dark">Zpracovát</button>
-                  </div>
-                
-           
-              </form>
 
-              <div class="card  mt-3">
-           
-                <div class="card-body">
-                  <h5 class="card-title fs-2 pt-3 pb-1 d-flex justify-content-center ">Doprava</h5>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Výdejní místo Zásilkovna(55Kč)
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                    Z-box(45Kč)
-                    </label>
-                  </div>
-                  
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Zásilkovna(kurýr -55Kč)
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label"for="flexRadioDefault1">
-                        General Logistics Systems(-55Kč)
-                       
-                        
-                    </label>
 
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                     DHL(-55Kč)
-                       
-                        
-                    </label>
-                    
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Česká pošta(-55Kč)
-                       
-                        
-                    </label>
-                    
-                  </div>
-                  <a href="#" class="btn btn-dark mt-2">Podtvrdit</a>
-                </div>
-           
-            </div>
-        </section>
-        <section class="container">
-            <div class="content">
 
-                <div class="card  mt-3">
-           
-                    <div class="card-body">
-                      <h5 class="card-title fs-2 pt-3 pb-1 d-flex justify-content-center ">Způsob platby</h5>
-                      <div class="form-check">
-                        <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Bankovní převod
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Apple pay
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Google pay
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          PayPal
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input"  type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Na dobírku
-                        </label>
-                      </div>
-               
-                     
-                        
-                     
-                      <a href="#" class="btn btn-dark mt-2">Podtvrdit</a>
-                    </div>
-                 
-                </div>
-               
-                </section>
-                <section class="container">
-                    <div class="content">
-                        <div class="text-center">
-                        <a href="#" class="btn btn-dark mt-2">Dokončít objednavku</a>
-                    </div>
-                    </div>
-                </section>
-    
-    
+    <div class="content">
+      <div class="card  mt-3">
+
+        <div class="card-body">
+          <h5 class="card-title fs-2 pt-3 pb-1">Shrnutí:</h5>
+          <p class="card-text">Počet produktu: 3ks</p>
+          <p class="card-text">Jmeno, Přijmení: Erik Belik</p>
+          <p class="card-text">Adresa: Věnceslava Metelky 114
+            512 11 VYSOKÉ NAD JIZEROU</p>
+          <p class="card-text">Doprava:General Logistics Systems(+55Kč)
+          </p>
+          <p class="card-text">Způsob platby: PayPal</p>
+          <p class="card-text">K úhradě: 1666 Kč</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-dark mt-2 mb-3">Dokončít objednavku</a>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -220,7 +246,6 @@
 
 
 
-   
 
 
 
@@ -228,9 +253,12 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
 
